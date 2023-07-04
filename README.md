@@ -1,2 +1,2 @@
 # ono-tebe-nado
-https://github.com/Olaliss
+https://github.com/Olaliss/ono-tebe-nado
