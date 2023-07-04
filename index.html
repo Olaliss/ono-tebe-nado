@@ -30,9 +30,9 @@
         <section class="cover">
           <div class="overlay"></div>
           <h1 class="cover__title">
-            <p class="aligned-text">он<span class="span-tab">о</span></p>
-            <p class="aligned-text_center">теб<span class="span-tab">е</span></p>
-            <p class="aligned-text_right"><span class="span-tab-nado">н</span>адо</p>
+            <span class="aligned-text">он<span class="span-tab">о</span></span>
+            <span class="aligned-text_center">теб<span class="span-tab">е</span></span>
+            <span class="aligned-text_right"><span class="span-tab-nado">н</span>адо</span>
           </h1>
           <div class="cover-description">
             <h2 class="cover-description-text">Аукцион вещей, в которые никто не верил</h2>
@@ -82,12 +82,12 @@
       <section class="about">
         <div class="about__column">
           <div class="about__logo">
-            <img class="about__logo-image" src="./images/logo-white.svg">
+            <img class="about__logo-image" src="./images/logo-white.svg" alt="Логотип">
           </div>
         </div>
-          <div>
+          <div class="column-two">
             <h1 class="about__title">Об аукционе</h1>
-            <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
+            <p class="about__text text-one">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
               Наши лоты вообще не должны были попасть ни на один аукцион. 
               Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? 
               Кому нужны все эти странные вещи, созданные любителями?</p>
@@ -98,6 +98,23 @@
           </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer-info">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+       <br>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <address class="address">наб. Принсенграхт 263-265, <br> Амстердам</address>
+      </div>
+      <nav class="footer__menu">
+        <a class="menu-button">главная</a>
+        <a class="menu-button check-lots" href="#0">посмотреть лоты</a>
+        <a class="menu-button about-au" href="#0">об аукционе</a>
+      </nav>
+      <ul class="footer__social-list">
+       <li class="footer__social-list-item"><a class="footer__social-link"><img class="footer__social-icon" src="./images/yt.svg" alt="иконка ютуб"></a></li> 
+       <li class="footer__social-list-item"><a class="footer__social-link"><img class="footer__social-icon" src="./images/vk.svg" alt="иконка вконтакте"></a></li>
+       <li class="footer__social-list-item"><a class="footer__social-link"><img class="footer__social-icon" src="./images/pinterest.svg" alt="иконка пинтерест"></a></li>
+      </ul>
+    </footer>
   </body>
 </html>
