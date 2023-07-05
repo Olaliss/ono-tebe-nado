@@ -1,5 +1,5 @@
-body  {
-width: 100%;
+body {
+  width: 100%;
 }
 
 .header {
@@ -57,7 +57,6 @@ width: 100%;
   display: grid;
   justify-content: end;
   padding-right: 50px;
-  
 }
 
 .address {
@@ -228,7 +227,6 @@ width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 .card__title {
@@ -261,7 +259,6 @@ width: 100%;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 50px;
-  
 }
 
 .card_type_film {
@@ -342,7 +339,6 @@ width: 100%;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  
 }
 
 .text-one {
@@ -369,8 +365,6 @@ width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
-  
-  
 }
 
 .footer__social-list {
@@ -381,7 +375,6 @@ width: 100%;
   height: 48px;
   justify-content: space-between;
   justify-self: end;
-  
 }
 
 .footer__social-list-item {
