@@ -1,12 +1,12 @@
-body {
-  width: 1440px;
-  height: 2844px;
+body  {
+width: 100%;
 }
 
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
   justify-content: space-between;
-  padding: 92px 50px;
+  padding: 92px 0;
 }
 
 .menu-ul {
@@ -14,7 +14,7 @@ body {
   gap: 32px;
   list-style: circle;
   white-space: nowrap;
-  padding-right: 209px;
+  padding-left: 50px;
   padding-top: 43px;
 }
 
@@ -54,8 +54,10 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24.3px;
-  padding-left: 355px;
-  padding-top: 5px;
+  display: grid;
+  justify-content: end;
+  padding-right: 50px;
+  
 }
 
 .address {
@@ -73,7 +75,6 @@ body {
   z-index: 1;
   position: relative;
   width: 100%;
-  height: 757px;
 }
 
 .cover__title {
@@ -173,14 +174,15 @@ body {
   text-transform: uppercase;
   border: 1;
   background-color: transparent;
-  padding: 12px 32px;
+  padding: 12px 0;
   margin-right: 50px;
-  margin-bottom: 150px;
   margin-top: 7px;
+  width: 257px;
+  height: 52px;
 }
 
 .lots {
-  padding: 180px 50px;
+  padding: 175px 49px;
   width: 100%;
 }
 
@@ -198,10 +200,10 @@ body {
 }
 
 .lots__card-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 430px);
+  align-items: stretch;
   list-style-type: none;
-  width: 100%;
-  height: 100%;
   padding-top: 26px;
   gap: 25px;
 }
@@ -209,25 +211,24 @@ body {
 .lots__card-list-item {
   flex-grow: 1;
   width: 430px;
-  height: 450px;
 }
 
 .card-link {
-  display: block;
+  display: flex;
   position: relative;
   width: 430px;
-  height: 450px;
+  height: 100%;
 }
 
 .card {
   background-size: cover;
   width: 100%;
-  height: 450px;
   position: relative;
   z-index: -3;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .card__title {
@@ -256,9 +257,11 @@ body {
   position: relative;
   z-index: 1;
   display: block;
+  padding-top: 30px;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 50px;
+  
 }
 
 .card_type_film {
@@ -290,6 +293,7 @@ body {
 .about {
   display: flex;
   flex-direction: row;
+  padding-top: 5px;
 }
 
 .about__column {
@@ -314,9 +318,9 @@ body {
 
 .column-two {
   display: block;
-  width: 885px;
-  height: 160px;
-  padding-left: 75px;
+  width: 100%;
+  padding-left: 120px;
+  padding-right: 50px;
 }
 
 .about__title {
@@ -338,7 +342,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 885px;
+  
 }
 
 .text-one {
@@ -346,9 +350,9 @@ body {
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  padding-top: 430px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 180px;
 }
 
 .footer-info {
@@ -358,22 +362,26 @@ body {
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
+  padding-left: 50px;
 }
 
 .footer__menu {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-left: 355px;
-  padding-right: 355px;
+  
+  
 }
 
 .footer__social-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 290px;
   list-style-type: none;
-  width: 240px;
   height: 48px;
   justify-content: space-between;
+  justify-self: end;
+  
 }
 
 .footer__social-list-item {
